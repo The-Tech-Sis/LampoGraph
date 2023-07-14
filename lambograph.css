@@ -1,0 +1,826 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: /*'Google Sans', 'Roboto',*/ 'Montserrat';
+	font-size: 10px;
+}
+header{
+	display: flex;
+	align-content: center;
+	justify-content: space-evenly;
+	width: 100%;
+	height: 10vh;
+	padding: 10px 10px 0px 0px;
+	box-shadow: 0px 10px 55px rgb(0 0 0 / 15%);
+}
+h3{
+	font-size: 1.5rem;
+	flex: 2;
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+}
+.header-p{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 10px;
+	width: 100%;
+	background-color: white;
+	position: absolute;
+    top: 10vh;
+	transform: translateY(-700px);
+	opacity: 0;
+	transition: all 0.4s ease-in;
+}
+.slide{
+	transform: translateY(0px);
+	opacity: 1;
+}
+.smw{
+	width: 15%;
+	padding-right: 20px;
+	display: flex;
+	align-items: center;
+	display: none;
+}
+.btn{
+	width: 112px;
+	height: 37px;
+	border: none;
+	border-radius: 3px;
+	background: #02c1ff;
+	color: white;
+}
+ul, a, li{
+	list-style: none;
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+}
+.ul{
+    width: 100%;
+    height: 50vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.close{
+	float: right;
+	position: absolute;
+	right: 20;
+}
+.burger{
+	width: 45px;
+	height: 45px;
+	padding-left: 7px;
+	padding-top: 10px;
+	cursor: pointer;
+	margin: 10px;
+}
+.line1{
+	width: 40px;
+	height: 5px;
+	margin-top: 5px;
+	background-color: #02c1ff;
+}
+h1{
+	text-align: center;
+	font-size: 4rem;
+	margin-top: 65px;
+	color: white;
+}
+p{
+	text-align: center;
+	font-size: 1.5rem;
+	color: white;
+}
+.lambograph_background{
+	background: url('pexels-riccardo-bertolo-4245826.jpg');
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 20rem;
+	padding-top: 24px;
+	margin-top: 5rem;
+	margin-bottom: 50px;
+}
+.container{
+	width: 100%;
+	height: 100vh;
+	margin: auto;
+	box-shadow: 0px 10px 55px rgb(0 0 0 / 15%);
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 10px;
+}
+.first-container{
+	width: 90%;
+	height: 40vh;
+	padding: 1rem 0px 0px 0px;
+}
+.p1{
+	font-size: 10px;
+	color: black;
+	text-align: left;
+	color: #02c1ff;
+}
+.line{
+	border-bottom: 2px solid black;
+}
+.h2{
+	font-size: 3.5rem;
+	font-weight: bolder;
+}
+.p2{
+	color: black;
+	font-size: 15px;
+	text-align: left;
+}
+.btn-create{
+	width: 34%;
+	height: 50px;
+	padding: 10px;
+	border-radius: 4px;
+	border: none;
+	color: white;
+	transition: all 0.4s ease-in-out;
+	background-color: #02c1ff;
+}
+.btn-create:hover{
+	color: #02c1ff;
+	background-color: white;
+}
+.second-container{
+	width: 50%;
+	height: 50vh;
+	background-image: url('img/freelancer-working-from-home-3079946-2569229.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	margin-left: 0px;
+}
+.quick{
+	width: 100%;
+	height: 30vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	margin: auto;
+	padding-top: 20px;
+	border-top: 2px solid #02c1ff;
+	border-bottom: 2px solid #02c1ff;
+}
+.quick div{
+	height: 100px;
+}
+.quick div p{
+	text-align: justify;
+	font-size: 15px;
+	color: black;
+}
+.comp-cont{
+	width: 100%;
+	height: 70px;
+	margin-top: 30px;
+}
+.comp{
+	margin: 10px;
+	font-size: 25px;
+	font-weight: bolder;
+	text-align: center;
+}
+.start-cont{
+	width: 100%;
+	height: 140vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 10px;
+	color: black;
+	margin: 2rem auto;
+}
+.start-accepting{
+	width: 100%;
+	height: 70vh;
+}
+.mins{
+	font-size: 3rem;
+	color: black;
+	margin: 0;
+	text-align: left;
+}
+.h44{
+	font-size: 23px;
+}
+.p-li{
+	color: black;
+	text-align: left;
+	font-size: 17px;
+}
+.btn-get{
+	width: 120px;
+	height: 45px;
+	border-radius: 4px;
+	border: none;
+	padding: 10px;
+	color: white;
+	background-color: #02c1ff;
+}
+.accept-pic{
+	margin-top: 50px;
+	width: 100%;
+	height: 65vh;
+	background-image: url('img/money-and-finances-3d-icon-3d-rendering-png.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+.scale{
+	width: 100%;
+	height: 150vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.h22{
+	font-size: 2rem;
+	text-align: center;
+}
+.scale-list{
+	width: 100%;
+	height: 140vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+}
+.scale-list div{
+	width: 90%;
+	height: 35vh;
+	border-radius: 5px;
+	padding: 20px;
+	transition: all 0.4s ease-in-out;
+	box-shadow: 0px 10px 55px rgb(0 0 0 / 15%);
+}
+.small{
+	padding-top: 10px;
+}
+.small-img{
+	width: 90px;
+	height: 90px;
+	margin-left: 20px;
+}
+.p-small{
+	color: black;
+	font-size: 17px;
+	text-align: left;
+}
+.start-here{
+	color: #02c1ff;
+	font-size: 12px;
+	text-align: left;
+}
+.getting-started{
+	width: 100%;
+	height: 70vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 10px;
+	text-align: left;
+}
+.get{
+	font-size: 27px;
+	font-weight: bolder;
+}
+.sales{
+	width: 90%;
+	height: 60vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+}
+.sales div{
+	margin: auto 10px 30px 10px;
+}
+.talk{
+	width: 90%;
+	height: 40vh;
+	padding: 20px;
+	border-radius: 7px;
+	background-color: #02c1ff;
+}
+.sales-team{
+	font-size: 20px;
+	text-align: left;
+}
+.support{
+	width: 90%;
+	height: 40vh;
+	padding: 20px;
+	border-radius: 5px;
+	border: solid 2px #02c1ff;
+}
+.aa{
+	color: #02c1ff;
+}
+.p-team{
+	color: black;
+}
+.minutes{
+	width: 100%;
+	height: 150px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.minutes2{
+	flex: 1;
+}
+.btn23{
+	border: none;
+	color: white;
+	border-radius: 4px;
+	width: 120px;
+	height: 50px;
+	padding: 10px;
+	background-color: #02c1ff;
+	margin-bottom: 10px;
+}
+footer{
+	background-color: #02c1ff;
+	padding-top: 20px;
+	width: 100%;
+	height: 120vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.footer-row{
+	width: 100%;
+	height: 110vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.lambo-logo{
+	font-size: 2rem;
+	color: white;
+}
+.logo-container1{
+	width: 75%;
+	height: 30%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 10px;
+}
+.contact-logo{
+	margin: auto;
+	width: 40%;
+	height: 50%;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+.contact-img{
+	width: 30px;
+	height: 30px;
+	background-color: white;
+	border-radius: 7px;
+}
+.products{
+	width: 100%;
+	height: 30vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.product-head{
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	text-align: left;
+	margin-top: 20px;
+}
+.products-li{
+	color: white;
+	text-align: left;
+	margin-top: 20px;
+}
+.copyright{
+	width: 80%;
+	height: 7vh;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	padding: 10px;
+	border-top: 2px white solid;
+	border-bottom: 2px white solid;
+}
+@media screen and (min-width: 650px) {
+	.header-p{
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		padding: 10px;
+		width: 100%;
+		background-color: white;
+		position: static;
+		transform: translateY(0px);
+		opacity: 1;
+	}
+	.smw{
+		width: 12%;
+		padding-right: 20px;
+		display: flex;
+		align-items: center;
+	}
+	.btn{
+		width: 112px;
+		height: 37px;
+		border: none;
+		border-radius: 3px;
+		background: #02c1ff;
+		color: white;
+	}
+	.burger{
+		display: none;
+	}
+	.ul {
+		width: auto;
+		height: auto;
+		margin: auto;
+		display: block;
+		align-items: center;
+		flex-direction: column;
+	}
+	ul, a, li{
+		display: inline;
+		list-style: none;
+		text-decoration: none;
+		color: black;
+		padding: 10px;
+	}
+	.close{
+		display: none;
+	}
+	h1{
+		text-align: center;
+		font-size: 5rem;
+		margin-top: 95px;
+		color: white;
+	}
+	p{
+		text-align: center;
+		font-size: 2rem;
+		color: white;
+	}
+	.lambograph_background{
+		background: url('pexels-riccardo-bertolo-4245826 (1).jpg');
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 20rem;
+		padding-top: 24px;
+		margin-top: 5rem;
+		margin-bottom: 50px;
+	}
+	.container{
+		width: 80%;
+		height: 80vh;
+		margin: auto;
+		box-shadow: 0px 10px 55px rgb(0 0 0 / 15%);
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+		padding: 5px;
+	}
+	.first-container{
+		width: 42%;
+		height: 40vh;
+		padding: 1rem 0px 0px 20px;
+	}
+	.p1{
+		font-size: 10px;
+		color: black;
+		text-align: left;
+		color: #02c1ff;
+	}
+	.line{
+		border-bottom: 2px solid black;
+	}
+	.h2{
+		font-size: 4.5rem;
+		font-weight: bolder;
+	}
+	.p2{
+		color: black;
+		font-size: 20px;
+		text-align: left;
+	}
+	.btn-create{
+		width: 40%;
+		height: 50px;
+		padding: 10px;
+		border-radius: 4px;
+		border: none;
+		color: white;
+		transition: all 0.4s ease-in-out;
+		background-color: #02c1ff;
+	}
+	.btn-create:hover{
+		color: #02c1ff;
+		background-color: white;
+	}
+	.second-container{
+		width: 40%;
+		height: 42vh;
+		background-image: url('img/freelancer-working-from-home-3079946-2569229.png');
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center;
+		margin-left: 50px;
+	}
+	.quick{
+		width: 95%;
+		height: 70px;
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+		justify-content: center;
+		margin: auto;
+		padding-top: 20px;
+		border-top: 2px solid #02c1ff;
+		border-bottom: 2px solid #02c1ff;
+	}
+	.quick div{
+		width: 30%;
+		height: 60px;
+		margin: 10px;
+	}
+	.quick div p{
+		text-align: justify;
+		color: black;
+	}
+	.comp-cont{
+		width: 100%;
+		height: 70px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: 30px;
+	}
+	.comp{
+		font-size: 25px;
+		font-weight: bolder;
+		flex: none;
+	}
+	.start-cont{
+		width: 80%;
+		height: 90vh;
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+		padding: 10px;
+		color: black;
+		margin: auto;
+	}
+	.start-accepting{
+		width: 45%;
+		height: 60vh;
+	}
+	.mins{
+		font-size: 3rem;
+		color: black;
+		margin: 0;
+		text-align: left;
+	}
+	.h44{
+		font-size: 23px;
+	}
+	.p-li{
+		color: black;
+		text-align: left;
+		font-size: 17px;
+	}
+	.btn-get{
+		width: 150px;
+		height: 45px;
+		border-radius: 4px;
+		border: none;
+		padding: 10px;
+		color: white;
+		background-color: #02c1ff;
+	}
+	.accept-pic{
+		width: 45%;
+		height: 60vh;
+		background-image: url('img/money-and-finances-3d-icon-3d-rendering-png.png');
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center;
+	}
+	.scale{
+		width: 100%;
+		height: 50vh;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+	.h22{
+		font-size: 2.5rem;
+	}
+	.scale-list{
+		width: 90%;
+		height: 40vh;
+		margin: 40px auto;
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+		flex-direction: row;
+	}
+	.scale-list div{
+		width: 28%;
+		height: 35vh;
+		border-radius: 5px;
+		padding: 10px;
+		transition: all 0.4s ease-in-out;
+		box-shadow: 0px 10px 55px rgb(0 0 0 / 15%);
+	}
+	.small{
+		padding-top: 70px;
+	}
+	.small-img{
+		width: 90px;
+		height: 90px;
+		margin-left: 20px;
+	}
+	.p-small{
+		color: black;
+		font-size: 15px;
+		text-align: left;
+	}
+	.small:hover{
+		width: 30%;
+		height: 40vh;
+	}
+	.start-here{
+		color: #02c1ff;
+		font-size: 12px;
+		text-align: left;
+	}
+	.medium:hover{
+		width: 33%;
+		height: 43vh;
+	}
+	.dev:hover{
+		width: 33%;
+		height: 43vh;
+	}
+	.getting-started{
+		width: 95%;
+		height: 50vh;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		padding: 10px;
+		margin: 30px auto;
+		text-align: left;
+	}
+	.get{
+		font-size: 25px;
+		font-weight: bold;
+	}
+	.sales{
+		width: 80%;
+		height: 40vh;
+		margin: auto;
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+		flex-direction: row;
+	}
+	.sales div{
+		margin: auto 10px auto 10px;
+	}
+	.talk{
+		width: 40%;
+		height: 25vh;
+		padding: 20px;
+		border-radius: 7px;
+		background-color: #02c1ff;
+	}
+	.sales-team{
+		font-size: 20px;
+		text-align: left;
+	}
+	.support{
+		width: 40%;
+		height: 25vh;
+		padding: 20px;
+		border-radius: 5px;
+		border: solid 2px #02c1ff;
+	}
+	.aa{
+		color: #02c1ff;
+	}
+	.p-team{
+		color: black;
+	}
+	.minutes{
+		width: 90%;
+		height: 150px;
+		margin: auto;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.minutes2{
+		flex: 2;
+	}
+	.btn23{
+		border: none;
+		color: white;
+		border-radius: 4px;
+		width: 150px;
+		height: 40px;
+		padding: 10px;
+		background-color: #02c1ff;
+	
+	}
+	footer{
+		background-color: #02c1ff;
+		padding-top: 30px;
+		width: 100%;
+		height: 50vh;
+		display: flex;
+		flex-direction: column;
+	}
+	.footer-row{
+		width: 100%;
+		height: 25vh;
+		display: flex;
+		flex-direction: row;
+	}
+	.lambo-logo{
+		font-size: 2rem;
+		color: white;
+	}
+	.logo-container1{
+		width: 25%;
+		height: 30%;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+	.contact-logo{
+		margin: auto;
+		width: 40%;
+		height: 50%;
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+	}
+	.contact-img{
+		width: 30px;
+		height: 30px;
+		background-color: white;
+		border-radius: 7px;
+		transition: all 0.4s ease-in-out;
+	}
+	.contact-img:hover{
+		width: 35px;
+		height: 35px;
+	}
+	.products{
+		width: 25%;
+		height: 20vh;
+		display: flex;
+		flex-direction: column;
+	}
+	.product-head{
+		font-size: 20px;
+		font-weight: bold;
+		color: white;
+		text-align: left;
+	}
+	.products-li{
+		color: white;
+		text-align: left;
+	}
+	.copyright{
+		width: 80%;
+		height: 7vh;
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+		padding: 10px;
+		margin: auto;
+		border-top: 2px white solid;
+		border-bottom: 2px white solid;
+	}	
+}
